@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>然麦悟道</title><meta name="description" content="Java技能提升">
+    <link rel="preload" href="/assets/style-FJlr0g0O.css" as="style"><link rel="stylesheet" href="/assets/style-FJlr0g0O.css">
+    <link rel="modulepreload" href="/assets/app-emocx2qX.js"><link rel="modulepreload" href="/assets/404.html-Cm56wJB4.js">
+    <link rel="prefetch" href="/assets/index.html--iBZdlef.js" as="script"><link rel="prefetch" href="/assets/vuepress-started.html-By5fVzAj.js" as="script"><link rel="prefetch" href="/assets/index.html-fY8iR3b1.js" as="script"><link rel="prefetch" href="/assets/index.html-C5Jn2c8D.js" as="script"><link rel="prefetch" href="/assets/index.html-DgDLYAIk.js" as="script"><link rel="prefetch" href="/assets/index.html-Ct6RLOuL.js" as="script"><link rel="prefetch" href="/assets/index.html-DsRKN6va.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-59f1623a><main class="page" data-v-59f1623a><div class="theme-default-content" data-v-59f1623a><h1 data-v-59f1623a>404</h1><blockquote data-v-59f1623a>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/" data-v-59f1623a>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-emocx2qX.js" defer></script>
+  </body>
+</html>
