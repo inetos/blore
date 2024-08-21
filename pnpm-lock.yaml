@@ -11,6 +11,9 @@ importers:
       '@vuepress/bundler-vite':
         specifier: ^2.0.0-rc.7
         version: 2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8)
+      '@vuepress/plugin-search':
+        specifier: 2.0.0-rc.41
+        version: 2.0.0-rc.41(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38))
       '@vuepress/theme-default':
         specifier: ^2.0.0-rc.11
         version: 2.0.0-rc.41(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38))
@@ -630,6 +633,11 @@ packages:
 
   '@vuepress/plugin-prismjs@2.0.0-rc.41':
     resolution: {integrity: sha512-0d9LSi5kpZFnAw4ISUDCpQKjUIB1gemjlZvw4SdV8b+dttl1dC8Ykrm93WNiVeR8gWhS+8Oa7J92Kd23ZNlFeQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.14
+
+  '@vuepress/plugin-search@2.0.0-rc.41':
+    resolution: {integrity: sha512-WS3EAyO39QbfpvNUqeB7d9+taQ+CxrbziIFfxNnLVY/VL3v3VW7iIYUakKv+Ja4knHCUO+GuKdk12OnYp7s9Ag==}
     peerDependencies:
       vuepress: 2.0.0-rc.14
 
@@ -1933,6 +1941,14 @@ snapshots:
       '@vuepress/helper': 2.0.0-rc.41(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38))
       '@vuepress/highlighter-helper': 2.0.0-rc.41(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38))
       prismjs: 1.29.0
+      vuepress: 2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38)
+    transitivePeerDependencies:
+      - typescript
+
+  '@vuepress/plugin-search@2.0.0-rc.41(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38))':
+    dependencies:
+      chokidar: 3.6.0
+      vue: 3.4.38
       vuepress: 2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.7(@types/node@22.4.2)(sass@1.77.8))(vue@3.4.38)
     transitivePeerDependencies:
       - typescript
