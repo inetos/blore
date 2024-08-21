@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   // 生成的路径
   public: `docs/assets`,
-  dest: './dest',
+  dest: './dist',
 
   markdown: {
     // anchor: {},

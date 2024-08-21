@@ -30,4 +30,4 @@ pnpm docs:dev
 pnpm docs:build
 ```
 
-执行后，在目录 `docs/.vuepress` 下，生成一个 `dist` 的文件夹，可以放在 nginx web 容器中运行.
+执行后，在项目根目录下，生成一个 `dist` 的文件夹，可以放在 nginx web 容器中运行.
